@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+package datatype is
+    
+signal  Nb: integer := 10;
+signal  N: integer := 10;
+type data is array (N-1 downto 0) of signed (Nb-1 downto 0);
+type data_c is array (natural <>) of signed (Nb-1 downto 0);
+end datatype;
+
+
+

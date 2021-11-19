@@ -1,0 +1,107 @@
+m255
+13
+cModel Technology
+d/home/isa01_2021_2022/lab01/test_mattia
+T_opt
+VLGa=OR`?=]o4nDld[F5QH1
+06 2 3 ./work tb beh 1
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OE;O;6.2g;35
+Pdatatype
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+w1637324474
+8netlist/datatype.vhd
+Fnetlist/datatype.vhd
+l0
+L4
+V;mh<VkkDin1C6Se`U]`ZS1
+OE;C;6.2g;35
+tExplicit 1
+Efilter
+w1637346796
+DP work datatype ;mh<VkkDin1C6Se`U]`ZS1
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8netlist/filter2_Advanced.vhd
+Fnetlist/filter2_Advanced.vhd
+l0
+L50
+V]PWWUhB1Aime^`f5]6?@21
+OE;C;6.2g;35
+tExplicit 1
+Abeh
+DE work genericregister 0`@nF>ogRkOL39F4e`^=40
+DP work datatype ;mh<VkkDin1C6Se`U]`ZS1
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work filter ]PWWUhB1Aime^`f5]6?@21
+32
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work datatype
+l79
+L60
+VUdk<nnL:JCB0>gXYE9DiX1
+OE;C;6.2g;35
+tExplicit 1
+Egenericregister
+w1637346796
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8netlist/filter2_Advanced.vhd
+Fnetlist/filter2_Advanced.vhd
+l0
+L4
+V0`@nF>ogRkOL39F4e`^=40
+OE;C;6.2g;35
+tExplicit 1
+Asyncronous
+32
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work genericregister 0`@nF>ogRkOL39F4e`^=40
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l21
+L16
+Vj8Y<jG2QKT^QC5<4mnVS[2
+OE;C;6.2g;35
+tExplicit 1
+Etb
+w1637347556
+DP work datatype ;mh<VkkDin1C6Se`U]`ZS1
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8netlist/tb3_advanced.vhd
+Fnetlist/tb3_advanced.vhd
+l0
+L7
+VC45a59aX2>S5Xl;o57BRC1
+OE;C;6.2g;35
+tExplicit 1
+Abeh
+DE work filter ]PWWUhB1Aime^`f5]6?@21
+DP work datatype ;mh<VkkDin1C6Se`U]`ZS1
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work tb C45a59aX2>S5Xl;o57BRC1
+32
+M4 ieee std_logic_1164
+M3 ieee numeric_std
+M2 std textio
+M1 work datatype
+l32
+L9
+VB=<n>C2F1W5S^hB;gj4GP0
+OE;C;6.2g;35
+tExplicit 1

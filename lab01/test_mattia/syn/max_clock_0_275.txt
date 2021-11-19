@@ -1,0 +1,55 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Filter_Nb10_N11_1
+Version: O-2018.06-SP4
+Date   : Thu Nov 18 20:26:38 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: REGX_1/reg/int_memory_reg[6]
+              (rising edge-triggered flip-flop clocked by my_clk)
+  Endpoint: REGX_2/reg/int_memory_reg[6]
+            (rising edge-triggered flip-flop clocked by my_clk)
+  Path Group: my_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Filter_Nb10_N11_1  5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock my_clk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  REGX_1/reg/int_memory_reg[6]/CK (DFF_X1)                0.00       0.00 r
+  REGX_1/reg/int_memory_reg[6]/QN (DFF_X1)                0.07       0.07 f
+  REGX_1/reg/U3/ZN (NOR2_X1)                              0.04       0.11 r
+  REGX_1/reg/Q_tri[6]/Z (TBUF_X1)                         0.05       0.16 r
+  REGX_1/reg/Q[6] (GenericRegister_N10_9)                 0.00       0.16 r
+  REGX_1/DOUT[6] (stage_Nb10_9)                           0.00       0.16 r
+  REGX_2/DIN[6] (stage_Nb10_8)                            0.00       0.16 r
+  REGX_2/reg/D[6] (GenericRegister_N10_8)                 0.00       0.16 r
+  REGX_2/reg/U46/ZN (INV_X1)                              0.02       0.18 f
+  REGX_2/reg/U45/ZN (OAI22_X1)                            0.05       0.22 r
+  REGX_2/reg/int_memory_reg[6]/D (DFF_X1)                 0.01       0.23 r
+  data arrival time                                                  0.23
+
+  clock my_clk (rise edge)                                0.28       0.28
+  clock network delay (ideal)                             0.00       0.28
+  REGX_2/reg/int_memory_reg[6]/CK (DFF_X1)                0.00       0.28 r
+  library setup time                                     -0.04       0.24
+  data required time                                                 0.24
+  --------------------------------------------------------------------------
+  data required time                                                 0.24
+  data arrival time                                                 -0.23
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

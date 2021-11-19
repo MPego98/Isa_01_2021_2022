@@ -1,0 +1,4 @@
+read_verilog -netlist ../netlist/myfir.v
+read_saif -input ../netlist/myfir.saif -instance tb/dut -unit ns -scale 1
+create_clock -name my_clk clk
+report_power > report/power_saif.txt

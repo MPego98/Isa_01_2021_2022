@@ -1,0 +1,5 @@
+# vsim -do script.do -c -t ns tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: Failed to find design unit work.tb.
+# Optimization failed
+# Error loading design
