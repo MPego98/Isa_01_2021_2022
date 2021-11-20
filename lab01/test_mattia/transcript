@@ -1,4 +1,4 @@
-# vsim -do script.do -c -t ns tb 
+# vsim -L /software/dk/nangate45/verilog/msim6.2g -do script_inn.do -c -sdftyp /tb/dut=innovus/Filter_innovus.sdf -t ns tb 
 # ** Note: (vsim-3812) Design is being optimized...
 # //  ModelSim SE 6.2g Feb 21 2007 Linux 3.10.0-957.5.1.el7.x86_64
 # //
@@ -14,7 +14,52 @@
 # Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
 # Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
 # Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
-# Loading work.datatype
 # Loading work.tb(beh)
-# Loading work.filter(beh)
-# do script.do 
+# Loading work.Filter(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.DFF_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.OAI22_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.INV_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.OAI21_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.NAND2_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.XOR2_X2(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.XNOR2_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.AOI22_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.NOR2_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.OR2_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.AOI21_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.NOR3_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.XOR2_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.AND2_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.OAI211_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.OAI221_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.AOI221_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.OAI222_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.NAND3_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.XNOR2_X2(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.OR3_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.AOI222_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.OAI33_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.AND3_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.AOI211_X1(fast)
+# Loading /software/dk/nangate45/verilog/msim6.2g.FA_X1(fast)
+# Loading instances from innovus/Filter_innovus.sdf
+# ** Warning: (vsim-3017) innovus/Filter_inn.v(18520): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tb/dut/add_6_root_add_0_root_add_43_I11_U1_9
+# ** Warning: (vsim-3017) innovus/Filter_inn.v(18636): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tb/dut/add_9_root_add_0_root_add_43_I11_U1_9
+# ** Warning: (vsim-3017) innovus/Filter_inn.v(18714): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tb/dut/add_7_root_add_0_root_add_43_I11_U1_9
+# ** Warning: (vsim-3017) innovus/Filter_inn.v(18764): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tb/dut/add_2_root_add_0_root_add_43_I11_U1_9
+# ** Warning: (vsim-3017) innovus/Filter_inn.v(18846): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tb/dut/add_3_root_add_0_root_add_43_I11_U1_9
+# ** Warning: (vsim-3017) innovus/Filter_inn.v(18938): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tb/dut/add_5_root_add_0_root_add_43_I11_U1_9
+# ** Warning: (vsim-3017) innovus/Filter_inn.v(19096): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tb/dut/add_1_root_add_0_root_add_43_I11_U1_9
+# ** Warning: (vsim-3017) innovus/Filter_inn.v(19214): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tb/dut/add_0_root_add_0_root_add_43_I11_U1_9
+# Loading timing data from innovus/Filter_innovus.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ns  Iteration: 0  Region: /tb  File: netlist/tb3_post.vhd
+# do script_inn.do 

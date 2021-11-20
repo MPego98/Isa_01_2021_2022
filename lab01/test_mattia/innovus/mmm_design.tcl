@@ -1,4 +1,4 @@
-create_library_set -name MY_LIBSET	-timing "$MyTimingLib"
+create_library_set -name MY_LIBSET -timing "$MyTimingLib"
 
 create_rc_corner -name my_rc \
         -cap_table $MycapTable \

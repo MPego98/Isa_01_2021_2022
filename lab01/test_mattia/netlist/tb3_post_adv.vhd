@@ -4,36 +4,40 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 --use ieee.Std_Logic_Arith.all;
 use std.textio.all;
-
+use work.datatype.all;
 entity tb is
 end entity;
 architecture beh of tb is
-
 component Filter is
- port( DIN : in SIGNED (9 downto 0);  VIN, rst_n, clk : in std_logic;  B : in
-         std_logic_vector (109 downto 0);  DOUT : out SIGNED (9 downto 0);  VOUT : out std_logic);
+port(
+	 DIN1,din2,din3:in signed (work.datatype.Nb-1 downto 0);
+	 VIN: in std_logic;
+ 	 rst_n: in std_logic;
+	 clk : in std_logic;
+	 B : in std_logic_vector (109 downto 0);
+	 DOUT1,dout2,dout3: out signed (work.datatype.Nb-1 downto 0);
+	 VOUT: out std_logic);
 end component;
-signal DIN: signed (9 downto 0);
+signal DIN1,din2,din3: signed (Nb-1 downto 0);
 signal VIN: std_logic :='0';
 signal rst_n:std_logic :='0';
 signal clk:std_logic :='0';
 signal B : std_logic_vector (109 downto 0);
 
-signal DOUT: signed (9 downto 0);
+signal DOUT1,dout2,dout3: signed (Nb-1 downto 0);
 signal VOUT: std_logic :='0';
 constant data_inl : integer := 201;
 type data_c is array (data_inl-1 downto 0) of signed (9 downto 0);
 signal list_in:data_c ;
 
  begin
-dut:Filter_Nb10_N11 
-	 
-	port map (DIN=>DIN,
+dut:Filter 
+	port map (DIN1=>DIN1,DIN2=>DIN2,DIN3=>DIN3,
 	VIN=>VIN,
 	rst_n=>rst_n,
 	clk=>clk,
 	B=>B,
-	DOUT=>DOUT,
+	DOUT1=>DOUT1,DOUT2=>DOUT2,DOUT3=>DOUT3,
 	VOUT=>VOUT);
 
 clk <= not clk after 10 ns;
@@ -120,14 +124,14 @@ begin
 		end if;
 	end if;
 end process;
-out_f : process(Dout)
+out_f : process(Dout1,dout2,dout3)
 file mem_fp:text;
 variable file_line:line;
 variable index:integer:=0;
 variable tmp_data_u: std_logic_vector(9 downto 0);
  begin
 if(rst_n='0') then
-file_open(mem_fp,"inout_data/out_post.txt",WRITE_MODE);
+file_open(mem_fp,"inout_data/out_post_adv.txt",WRITE_MODE);
 else 
 	tmp_data_u:=std_logic_vector(DOUT1);
 	

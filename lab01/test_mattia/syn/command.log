@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version O-2018.06-SP4 for linux64 -- Nov 27, 2018
-#@ # Date:   Sat Nov 20 12:50:26 2021
+#@ # Date:   Sat Nov 20 17:31:43 2021
 #@ # Run by: isa01_2021_2022@localhost.localdomain
 #@ 
 
@@ -6638,27 +6638,13 @@ source /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/syn/.synopsy
 #@ set synthetic_library [list "dw_foundation.sldb" ]
 #@ # -- End source /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/syn/.synopsys_dc.setup
 
-source -echo -verbose /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/syn/syn.txt
-#@ # -- Starting source /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/syn/syn.txt
-
-#@ analyze -library WORK -format vhdl {../netlist/datatype.vhd ../netlist/filter.vhd}
-#@ elaborate FILTER -architecture BEH -library work 
-#@ #max clock 2
-#@ create_clock -name my_clk -period 2 clk
-#@ set_dont_touch_network my_clk
-#@ compile -exact_map
-#@ report_timing > report/clk_1_time.txt
-#@ report_area > report/clk_1_area.txt
-#@ 
-#@ create_clock -name my_clk -period 8 clk
-#@ set_dont_touch_network my_clk
-#@ compile -exact_map
-#@ report_timing > report/clk_1_4_time.txt
-#@ report_area > report/clk_1_4_area.txt
-#@ ungroup -all -flatten
-#@ change_names -hierarchy -rules verilog
-#@ write_sdf ../netlist/myfir.sdf
-#@ write -f verilog -hierarchy -output ../netlist/myfir.v
-#@ write_sdc ../netlist/myfir.sdc
-#@ # -- End source /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/syn/syn.txt
-
+read_verilog -netlist ../innovus/Filter_inn.v
+read_saif input innovus_fir.saif -instance tb/dut -unit ns -scale 1
+read_saif -input innovus_fir.saif -instance tb/dut -unit ns -scale 1
+create_clock -name myclk clk
+report_power > report/power_basic_innovus
+report_power > report/power_basic_innovus.txt
+report_timing > report/time_basic_innovus.txt
+report_area > repor/area_basic_innovus.txt
+report_area > report/area_basic_innovus.txt
+quit

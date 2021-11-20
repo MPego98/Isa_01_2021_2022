@@ -1,5 +1,5 @@
 source /software/scripts/init_synopsys_64.18
-design_vision -f syn.txt -no_gui
+design_vision -f syn_adv.txt -no_gui
 
 
 #ungroup -all -flatten

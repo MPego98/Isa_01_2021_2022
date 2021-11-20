@@ -26,7 +26,7 @@ type data_c is array (data_inl-1 downto 0) of signed (9 downto 0);
 signal list_in:data_c ;
 
  begin
-dut:Filter_Nb10_N11 
+dut:Filter 
 	 
 	port map (DIN=>DIN,
 	VIN=>VIN,
@@ -107,7 +107,7 @@ variable index:integer:=0;
 variable tmp_data_u: std_logic_vector(9 downto 0);
  begin
 if(rst_n='0') then
-file_open(mem_fp,"inout_data/out_post.txt",WRITE_MODE);
+file_open(mem_fp,"inout_data/out_post_inn.txt",WRITE_MODE);
 else 
 	tmp_data_u:=std_logic_vector(DOUT);
 	
