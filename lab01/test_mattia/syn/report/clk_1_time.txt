@@ -1,0 +1,101 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Filter
+Version: O-2018.06-SP4
+Date   : Sat Nov 20 12:55:15 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: x_vector_reg[6][3]
+              (rising edge-triggered flip-flop clocked by my_clk)
+  Endpoint: DOUT_reg[9]
+            (rising edge-triggered flip-flop clocked by my_clk)
+  Path Group: my_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Filter             5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock my_clk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  x_vector_reg[6][3]/CK (DFF_X1)                          0.00       0.00 r
+  x_vector_reg[6][3]/Q (DFF_X1)                           0.11       0.11 r
+  mult_41_I7/a[3] (Filter_DW_mult_tc_4)                   0.00       0.11 r
+  mult_41_I7/U494/Z (XOR2_X1)                             0.09       0.20 r
+  mult_41_I7/U300/ZN (NAND2_X1)                           0.03       0.23 f
+  mult_41_I7/U405/ZN (OAI22_X1)                           0.05       0.28 r
+  mult_41_I7/U56/S (HA_X1)                                0.08       0.35 r
+  mult_41_I7/U368/ZN (INV_X1)                             0.03       0.39 f
+  mult_41_I7/U308/ZN (OAI222_X1)                          0.07       0.45 r
+  mult_41_I7/U305/ZN (NAND2_X1)                           0.03       0.48 f
+  mult_41_I7/U307/ZN (AND3_X1)                            0.04       0.53 f
+  mult_41_I7/U233/ZN (OR2_X1)                             0.06       0.58 f
+  mult_41_I7/U365/ZN (NAND3_X1)                           0.03       0.62 r
+  mult_41_I7/U312/ZN (NAND2_X1)                           0.02       0.64 f
+  mult_41_I7/U314/ZN (AND3_X1)                            0.04       0.68 f
+  mult_41_I7/U361/ZN (OR2_X1)                             0.06       0.74 f
+  mult_41_I7/U363/ZN (NAND3_X1)                           0.03       0.77 r
+  mult_41_I7/U374/ZN (NAND2_X1)                           0.03       0.80 f
+  mult_41_I7/U272/ZN (AND3_X1)                            0.04       0.84 f
+  mult_41_I7/U277/ZN (OR2_X2)                             0.05       0.89 f
+  mult_41_I7/U278/ZN (NAND3_X1)                           0.03       0.93 r
+  mult_41_I7/U280/ZN (NAND2_X1)                           0.03       0.96 f
+  mult_41_I7/U264/ZN (NAND3_X1)                           0.03       0.99 r
+  mult_41_I7/U284/ZN (XNOR2_X1)                           0.06       1.05 r
+  mult_41_I7/product[11] (Filter_DW_mult_tc_4)            0.00       1.05 r
+  add_7_root_add_0_root_add_43_I11/B[1] (Filter_DW01_add_6)
+                                                          0.00       1.05 r
+  add_7_root_add_0_root_add_43_I11/U1_1/S (FA_X1)         0.12       1.17 f
+  add_7_root_add_0_root_add_43_I11/SUM[1] (Filter_DW01_add_6)
+                                                          0.00       1.17 f
+  add_2_root_add_0_root_add_43_I11/B[1] (Filter_DW01_add_5)
+                                                          0.00       1.17 f
+  add_2_root_add_0_root_add_43_I11/U1_1/CO (FA_X1)        0.10       1.28 f
+  add_2_root_add_0_root_add_43_I11/U1_2/CO (FA_X1)        0.09       1.37 f
+  add_2_root_add_0_root_add_43_I11/U1_3/CO (FA_X1)        0.09       1.46 f
+  add_2_root_add_0_root_add_43_I11/U1_4/CO (FA_X1)        0.09       1.55 f
+  add_2_root_add_0_root_add_43_I11/U1_5/CO (FA_X1)        0.09       1.64 f
+  add_2_root_add_0_root_add_43_I11/U1_6/CO (FA_X1)        0.09       1.73 f
+  add_2_root_add_0_root_add_43_I11/U1_7/CO (FA_X1)        0.09       1.82 f
+  add_2_root_add_0_root_add_43_I11/U1_8/CO (FA_X1)        0.09       1.91 f
+  add_2_root_add_0_root_add_43_I11/U1_9/S (FA_X1)         0.14       2.05 r
+  add_2_root_add_0_root_add_43_I11/SUM[9] (Filter_DW01_add_5)
+                                                          0.00       2.05 r
+  add_1_root_add_0_root_add_43_I11/B[9] (Filter_DW01_add_1)
+                                                          0.00       2.05 r
+  add_1_root_add_0_root_add_43_I11/U1_9/S (FA_X1)         0.12       2.16 f
+  add_1_root_add_0_root_add_43_I11/SUM[9] (Filter_DW01_add_1)
+                                                          0.00       2.16 f
+  add_0_root_add_0_root_add_43_I11/B[9] (Filter_DW01_add_0)
+                                                          0.00       2.16 f
+  add_0_root_add_0_root_add_43_I11/U1_9/S (FA_X1)         0.13       2.30 r
+  add_0_root_add_0_root_add_43_I11/SUM[9] (Filter_DW01_add_0)
+                                                          0.00       2.30 r
+  U260/ZN (NAND2_X1)                                      0.03       2.32 f
+  U262/ZN (NAND2_X1)                                      0.03       2.35 r
+  DOUT_reg[9]/D (DFF_X2)                                  0.01       2.36 r
+  data arrival time                                                  2.36
+
+  clock my_clk (rise edge)                                2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  DOUT_reg[9]/CK (DFF_X2)                                 0.00       2.00 r
+  library setup time                                     -0.03       1.97
+  data required time                                                 1.97
+  --------------------------------------------------------------------------
+  data required time                                                 1.97
+  data arrival time                                                 -2.36
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.39
+
+
+1
