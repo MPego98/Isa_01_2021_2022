@@ -1,11 +1,11 @@
 analyze -library WORK -format vhdl {../netlist/datatype.vhd ../netlist/filter2_Advanced.vhd}
 elaborate FILTER -architecture BEH -library work 
 #max clock 0.275
-create_clock -name my_clk -period 0.275 clk
-set_dont_touch_network my_clk
-compile -exact_map
-report_timing > report/clk_1_time_adv.txt
-report_area > report/clk_1_area.txt
+#create_clock -name my_clk -period 0.275 clk
+#set_dont_touch_network my_clk
+#compile -exact_map
+#report_timing > report/clk_1_time_adv.txt
+#report_area > report/clk_1_area.txt
 
 create_clock -name my_clk -period 1.1 clk
 set_dont_touch_network my_clk

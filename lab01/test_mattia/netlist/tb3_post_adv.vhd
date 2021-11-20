@@ -83,18 +83,38 @@ variable idx:integer:=0;
 begin
 	if(rst_n='1' and clk'event and clk='0' ) then 
 		if( idx<data_inl) then
-			DIN(0)<=list_in(idx)(0);
-			DIN(1)<=list_in(idx)(1);
-			DIN(2)<=list_in(idx)(2);
-			DIN(3)<=list_in(idx)(3);
-			DIN(4)<=list_in(idx)(4);
-			DIN(5)<=list_in(idx)(5);
-			DIN(6)<=list_in(idx)(6);
-			DIN(7)<=list_in(idx)(7);
-			DIN(8)<=list_in(idx)(8);
-			DIN(9)<=list_in(idx)(9);
+			DIN1(0)<=list_in(idx)(0);
+			DIN1(1)<=list_in(idx)(1);
+			DIN1(2)<=list_in(idx)(2);
+			DIN1(3)<=list_in(idx)(3);
+			DIN1(4)<=list_in(idx)(4);
+			DIN1(5)<=list_in(idx)(5);
+			DIN1(6)<=list_in(idx)(6);
+			DIN1(7)<=list_in(idx)(7);
+			DIN1(8)<=list_in(idx)(8);
+			DIN1(9)<=list_in(idx)(9);
+			DIN2(0)<=list_in(idx)(0);
+			DIN2(1)<=list_in(idx+1)(1);
+			DIN2(2)<=list_in(idx+1)(2);
+			DIN2(3)<=list_in(idx+1)(3);
+			DIN2(4)<=list_in(idx+1)(4);
+			DIN2(5)<=list_in(idx+1)(5);
+			DIN2(6)<=list_in(idx+1)(6);
+			DIN2(7)<=list_in(idx+1)(7);
+			DIN2(8)<=list_in(idx+1)(8);
+			DIN2(9)<=list_in(idx+1)(9);
+			DIN3(0)<=list_in(idx+2)(0);
+			DIN3(1)<=list_in(idx+2)(1);
+			DIN3(2)<=list_in(idx+2)(2);
+			DIN3(3)<=list_in(idx+2)(3);
+			DIN3(4)<=list_in(idx+2)(4);
+			DIN3(5)<=list_in(idx+2)(5);
+			DIN3(6)<=list_in(idx+2)(6);
+			DIN3(7)<=list_in(idx+2)(7);
+			DIN3(8)<=list_in(idx+2)(8);
+			DIN3(9)<=list_in(idx+2)(9);
 			VIN<='1';
-			idx:=idx+1;
+			idx:=idx+3;
 		
 
 		end if;
@@ -109,11 +129,19 @@ variable tmp_data_u: std_logic_vector(9 downto 0);
 if(rst_n='0') then
 file_open(mem_fp,"inout_data/out_post.txt",WRITE_MODE);
 else 
-	tmp_data_u:=std_logic_vector(DOUT);
+	tmp_data_u:=std_logic_vector(DOUT1);
+	
+	write(file_line,to_integer(ieee.numeric_std.signed(tmp_data_u)));
+        writeline(mem_fp,file_line); 
+	tmp_data_u:=std_logic_vector(DOUT2);
+	
+	write(file_line,to_integer(ieee.numeric_std.signed(tmp_data_u)));
+        writeline(mem_fp,file_line); 
+	tmp_data_u:=std_logic_vector(DOUT3);
 	
 	write(file_line,to_integer(ieee.numeric_std.signed(tmp_data_u)));
         writeline(mem_fp,file_line);      
-        index := index + 1;
+        index := index + 3;
 end if;
 end process;
 

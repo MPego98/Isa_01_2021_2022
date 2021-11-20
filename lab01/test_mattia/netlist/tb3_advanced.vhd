@@ -79,6 +79,8 @@ begin
 			DIN1<=list_in(idx);
 			DIN2<=list_in(idx+1);
 			DIN3<=list_in(idx+2);
+			--DIN2<=list_in(idx+1);
+			--DIN3<=list_in(idx+2);
 			VIN<='1';
 			idx:=idx+3;
 		
@@ -94,7 +96,7 @@ variable tmp_data_u: integer;
  begin
 if(rst_n='0') then
 	file_close(mem_fp);
-  file_open(mem_fp,"inout_data/out_adv.txt",WRITE_MODE);
+  file_open(mem_fp,"inout_data/out_adv3_tes.txt",WRITE_MODE);
 
 elsif(index < data_inl) then
 	write(file_line,to_integer(Dout1));
@@ -104,6 +106,7 @@ elsif(index < data_inl) then
 	write(file_line,to_integer(Dout3));
         writeline(mem_fp,file_line);      
         index := index + 3;
+	  
 else
 	  file_close(mem_fp);
 end if;

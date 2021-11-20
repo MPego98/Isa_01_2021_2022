@@ -150,9 +150,9 @@ k_3_0(0)<=din1;
 k_3_1(0)<=din2;
 k_3_2(0)<=din3;
 
-dout1<=res1((2*Nb)-1 downto Nb);
-dout2<=res2((2*Nb)-1 downto Nb);
-dout3<=res3((2*Nb)-1 downto Nb);
+dout1<=res1((2*Nb)-2 downto Nb-1);
+dout2<=res2((2*Nb)-2 downto Nb-1);
+dout3<=res3((2*Nb)-2 downto Nb-1);
 process (tmp2,clk, rst_n) 
 begin
 	if(rising_edge(clk) or rst_n ='0') then

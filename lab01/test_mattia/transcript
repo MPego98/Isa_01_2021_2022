@@ -15,8 +15,6 @@
 # Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
 # Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
 # Loading work.datatype
-# Loading work.tb(beh)#1
-# Loading work.filter(beh)#1
-# Loading work.genericregister(syncronous)#1
-# Loading work.genericregister(syncronous)#2
+# Loading work.tb(beh)
+# Loading work.filter(beh)
 # do script.do 

@@ -92,7 +92,7 @@ variable tmp_data_u: integer;
  begin
 if(rst_n='0') then
 	file_close(mem_fp);
-  file_open(mem_fp,"inout_data/out_adv.txt",WRITE_MODE);
+  file_open(mem_fp,"inout_data/out1.txt",WRITE_MODE);
 
 elsif(index < data_inl) then
 	write(file_line,to_integer(Dout));

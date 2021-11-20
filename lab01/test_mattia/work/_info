@@ -3,8 +3,8 @@ m255
 cModel Technology
 d/home/isa01_2021_2022/lab01/test_mattia
 T_opt
-VLGa=OR`?=]o4nDld[F5QH1
-06 2 3 ./work tb beh 1
+VL1d[SL;EWLEEA9z;GU7oV1
+06 2 3 ./work tb beh 0
 o-quiet -auto_acc_if_foreign -work work
 tExplicit 1
 OE;O;6.2g;35
@@ -23,14 +23,14 @@ M2 ieee std_logic_1164
 M1 ieee numeric_std
 tExplicit 1
 Efilter
-w1637346796
+w1637405781
 DP work datatype ;mh<VkkDin1C6Se`U]`ZS1
 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8netlist/filter2_Advanced.vhd
-Fnetlist/filter2_Advanced.vhd
+8netlist/filter2_Advanced3.vhd
+Fnetlist/filter2_Advanced3.vhd
 l0
-L50
+L6
 V]PWWUhB1Aime^`f5]6?@21
 OE;C;6.2g;35
 32
@@ -40,41 +40,17 @@ DP work datatype ;mh<VkkDin1C6Se`U]`ZS1
 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
 DE work filter ]PWWUhB1Aime^`f5]6?@21
-l79
-L60
-VUdk<nnL:JCB0>gXYE9DiX1
+l25
+L16
+VCf1RDR=l^XXc6a;Pd38E?3
 OE;C;6.2g;35
 32
 M3 ieee std_logic_1164
 M2 ieee numeric_std
 M1 work datatype
 tExplicit 1
-Egenericregister
-w1637346796
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8netlist/filter2_Advanced.vhd
-Fnetlist/filter2_Advanced.vhd
-l0
-L4
-V0`@nF>ogRkOL39F4e`^=40
-OE;C;6.2g;35
-32
-tExplicit 1
-Asyncronous
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work genericregister 0`@nF>ogRkOL39F4e`^=40
-l21
-L16
-Vj8Y<jG2QKT^QC5<4mnVS[2
-OE;C;6.2g;35
-32
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-tExplicit 1
 Etb
-w1637347556
+w1637404917
 DP work datatype ;mh<VkkDin1C6Se`U]`ZS1
 DP std textio K]Z^fghZ6B=BjnK5NomDT3
 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
@@ -95,7 +71,7 @@ DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
 DE work tb C45a59aX2>S5Xl;o57BRC1
 l32
 L9
-VB=<n>C2F1W5S^hB;gj4GP0
+VzLo84a6CRPWi=6Ib;XMdf3
 OE;C;6.2g;35
 32
 M4 ieee std_logic_1164

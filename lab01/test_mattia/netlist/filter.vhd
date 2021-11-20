@@ -5,7 +5,6 @@ use ieee.numeric_std.all;
 
 use work.datatype.all;
 entity Filter is
-generic(Nb:integer :=10; N: integer :=10);
 port(
 	 DIN:in signed (Nb-1 downto 0);
 	 VIN: in std_logic;
