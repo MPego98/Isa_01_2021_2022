@@ -1,0 +1,1096 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.11-s080_1, built Fri Aug 4 11:13:11 PDT 2017
+Options:	
+Date:		Sun Nov 21 18:33:21 2021
+Host:		localhost.localdomain (x86_64 w/Linux 3.10.0-957.5.1.el7.x86_64) (1core*2cpus*Westmere E56xx/L56xx/X56xx (Nehalem-C) 4096KB)
+OS:		CentOS Linux release 7.6.1810 (Core) 
+
+License:
+		invs	Innovus Implementation System	17.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+my_rc
+Loading view definition file from /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/innovus/Filter_adv.dat/viewDefinition.tcl
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /software/dk/nangate45/liberty/NangateOpenCellLibrary_typical_ecsm_nowlm.lib)
+*** End library_loading (cpu=0.04min, real=0.25min, mem=19.3M, fe_cpu=0.73min, fe_real=10.52min, fe_mem=530.7M) ***
+*** Netlist is unique.
+Loading preference file /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/innovus/Filter_adv.dat/gui.pref.tcl ...
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+<CMD> selectWire 5.1300 150.5550 178.6000 150.7250 1 VDD
+<CMD> spefIn Filter_adv.spef
+Used active corner my_rc for reading SPEF file as option '-rc_corner <cornerName>' is not specified in MMMC mode.
+
+SPEF files for RC Corner my_rc:
+Start spef parsing (MEM=820.715).
+SPEF file Filter_adv.spef.
+Number of Resistors     : 163881
+Number of Ground Caps   : 175264
+Number of Coupling Caps : 5760
+
+End spef parsing (MEM=830.445 CPU=0:00:01.3 REAL=0:00:12.0).
+**ERROR: Library name is missing.
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Free PSO.
+**WARN: (IMPCK-8086):	The command setCTSMode is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+
+
+Info (SM2C): Status of key globals:
+	 MMMC-by-default flow     : 1
+	 Default MMMC objs envvar : 0
+	 Data portability         : 0
+	 MMMC PV Emulation        : 0
+	 MMMC debug               : 0
+	 Init_Design flow         : 1
+
+
+	 CTE SM2C global          : false
+	 Reporting view filter    : false
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+my_rc
+Loading view definition file from /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/innovus/Filter_adv.dat/viewDefinition.tcl
+*** End library_loading (cpu=0.04min, real=0.43min, mem=6.0M, fe_cpu=2.02min, fe_real=40.70min, fe_mem=686.0M) ***
+*** Netlist is unique.
+Loading preference file /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/innovus/Filter_adv.dat/gui.pref.tcl ...
+**WARN: analysis view MyAnView not found, use default_view_setup
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Free PSO.
+**WARN: (IMPCK-8086):	The command setCTSMode is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+
+
+Info (SM2C): Status of key globals:
+	 MMMC-by-default flow     : 1
+	 Default MMMC objs envvar : 0
+	 Data portability         : 0
+	 MMMC PV Emulation        : 0
+	 MMMC debug               : 0
+	 Init_Design flow         : 1
+
+
+	 CTE SM2C global          : false
+	 Reporting view filter    : false
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+my_rc
+Loading view definition file from /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/innovus/Filter_adv.dat/viewDefinition.tcl
+*** End library_loading (cpu=0.04min, real=0.37min, mem=10.0M, fe_cpu=2.35min, fe_real=46.28min, fe_mem=699.1M) ***
+*** Netlist is unique.
+Loading preference file /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/innovus/Filter_adv.dat/gui.pref.tcl ...
+**WARN: analysis view MyAnView not found, use default_view_setup
+**WARN: analysis view MyAnView not found, use default_view_setup
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Free PSO.
+**WARN: (IMPCK-8086):	The command setCTSMode is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+
+
+Info (SM2C): Status of key globals:
+	 MMMC-by-default flow     : 1
+	 Default MMMC objs envvar : 0
+	 Data portability         : 0
+	 MMMC PV Emulation        : 0
+	 MMMC debug               : 0
+	 Init_Design flow         : 1
+
+
+	 CTE SM2C global          : false
+	 Reporting view filter    : false
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+my_rc
+Loading view definition file from /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/innovus/Filter_adv.dat/viewDefinition.tcl
+*** End library_loading (cpu=0.04min, real=0.60min, mem=9.0M, fe_cpu=2.61min, fe_real=51.33min, fe_mem=713.7M) ***
+*** Netlist is unique.
+Loading preference file /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/innovus/Filter_adv.dat/gui.pref.tcl ...
+**WARN: analysis view MyAnView not found, use default_view_setup
+**WARN: analysis view MyAnView not found, use default_view_setup
+**WARN: analysis view MyAnView not found, use default_view_setup
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+<CMD> gui_select -rect {41.804 140.270 75.302 106.400}
+<CMD> setPlaceMode -prerouteAsObs {1 2 3 4 5 6 7 8}
+<CMD> setPlaceMode -fp false
+<CMD> placeDesign
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:01.1) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.22303 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: Filter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Calculate delays in Single mode...
+Start delay calculation (fullDC) (1 T). (MEM=977.148)
+siFlow : Timing analysis mode is single, using late cdB files
+siFlow : Timing analysis mode is single, using late cdB files
+Total number of fetched objects 11688
+End delay calculation. (MEM=1241.86 CPU=0:00:05.8 REAL=0:00:56.0)
+End delay calculation (fullDC). (MEM=1144.49 CPU=0:00:07.9 REAL=0:01:26)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 18399 physical insts (cell - / prefix -).
+*** Starting "NanoPlace(TM) placement v#10 (mem=1130.2M)" ...
+total jobs 1303
+multi thread init TemplateIndex for each ta. thread num 1
+Wait...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.8 mem=1130.2M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:01.0 mem=1130.2M) ***
+No user setting net weight.
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+Scan chains were not defined.
+#std cell=9585 (0 fixed + 9585 movable) #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=11550 #term=36160 #term/net=3.13, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=174
+stdCell: 9585 single + 0 double + 0 multi
+Total standard cell length = 12.6869 (mm), area = 0.0178 (mm^2)
+Estimated cell power/ground rail width = 0.197 um
+Average module density = 0.595.
+Density for the design = 0.595.
+       = stdcell_area 66773 sites (17762 um^2) / alloc_area 112299 sites (29872 um^2).
+Pin Density = 0.3220.
+            = total # of pins 36160 / total area 112299.
+=== lastAutoLevel = 8 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 7.420e-10 (3.70e-10 3.72e-10)
+              Est.  stn bbox = 7.927e-10 (3.95e-10 3.98e-10)
+              cpu = 0:00:00.0 real = 0:00:01.0 mem = 1085.7M
+Iteration  2: Total net bbox = 7.420e-10 (3.70e-10 3.72e-10)
+              Est.  stn bbox = 7.927e-10 (3.95e-10 3.98e-10)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1085.7M
+Iteration  3: Total net bbox = 2.252e+02 (9.80e+01 1.27e+02)
+              Est.  stn bbox = 2.707e+02 (1.19e+02 1.52e+02)
+              cpu = 0:00:00.5 real = 0:00:07.0 mem = 1102.7M
+Active setup views:
+    MyAnView
+Iteration  4: Total net bbox = 8.044e+04 (3.52e+04 4.52e+04)
+              Est.  stn bbox = 9.833e+04 (4.28e+04 5.55e+04)
+              cpu = 0:00:05.7 real = 0:01:04 mem = 1102.7M
+Iteration  5: Total net bbox = 8.627e+04 (3.97e+04 4.65e+04)
+              Est.  stn bbox = 1.066e+05 (4.83e+04 5.83e+04)
+              cpu = 0:00:04.3 real = 0:00:37.0 mem = 1102.7M
+Iteration  6: Total net bbox = 9.355e+04 (4.52e+04 4.84e+04)
+              Est.  stn bbox = 1.167e+05 (5.53e+04 6.13e+04)
+              cpu = 0:00:06.8 real = 0:01:00.0 mem = 1104.7M
+Iteration  7: Total net bbox = 1.232e+05 (6.14e+04 6.19e+04)
+              Est.  stn bbox = 1.564e+05 (7.67e+04 7.96e+04)
+              cpu = 0:00:01.5 real = 0:00:29.0 mem = 1116.4M
+Iteration  8: Total net bbox = 1.232e+05 (6.14e+04 6.19e+04)
+              Est.  stn bbox = 1.564e+05 (7.67e+04 7.96e+04)
+              cpu = 0:00:08.5 real = 0:01:56 mem = 1116.4M
+Iteration  9: Total net bbox = 1.269e+05 (6.31e+04 6.39e+04)
+              Est.  stn bbox = 1.605e+05 (7.86e+04 8.19e+04)
+              cpu = 0:00:06.1 real = 0:00:50.0 mem = 1116.4M
+Iteration 10: Total net bbox = 1.269e+05 (6.31e+04 6.39e+04)
+              Est.  stn bbox = 1.605e+05 (7.86e+04 8.19e+04)
+              cpu = 0:00:07.5 real = 0:01:25 mem = 1116.4M
+Iteration 11: Total net bbox = 1.338e+05 (6.62e+04 6.76e+04)
+              Est.  stn bbox = 1.675e+05 (8.18e+04 8.57e+04)
+              cpu = 0:00:11.4 real = 0:01:26 mem = 1116.4M
+Iteration 12: Total net bbox = 1.338e+05 (6.62e+04 6.76e+04)
+              Est.  stn bbox = 1.675e+05 (8.18e+04 8.57e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1116.4M
+*** cost = 1.338e+05 (6.62e+04 6.76e+04) (cpu for global=0:00:53.6) real=0:09:10***
+Info: 0 clock gating cells identified, 0 (on average) moved
+Solver runtime cpu: 0:00:33.3 real: 0:04:46
+Core Placement runtime cpu: 0:00:35.2 real: 0:05:13
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:03:58 mem=1116.4M) ***
+Total net bbox length = 1.338e+05 (6.619e+04 6.761e+04) (ext = 2.804e+04)
+Density distribution unevenness ratio = 8.129%
+Move report: Detail placement moves 9585 insts, mean move: 0.60 um, max move: 12.93 um
+	Max move on inst (U1506): (74.37, 77.46) --> (70.87, 68.04)
+	Runtime: CPU: 0:00:03.7 REAL: 0:00:39.0 MEM: 1116.4MB
+Summary Report:
+Instances move: 9585 (out of 9585 movable)
+Instances flipped: 0
+Mean displacement: 0.60 um
+Max displacement: 12.93 um (Instance: U1506) (74.3725, 77.4625) -> (70.87, 68.04)
+	Length: 2 sites, height: 1 rows, site name: FreePDK45_38x28_10R_NP_162NW_34O, cell type: INV_X1
+Total net bbox length = 1.311e+05 (6.286e+04 6.826e+04) (ext = 2.794e+04)
+Runtime: CPU: 0:00:03.8 REAL: 0:00:39.0 MEM: 1116.4MB
+*** Finished refinePlace (0:04:02 mem=1116.4M) ***
+*** End of Placement (cpu=0:01:03, real=0:11:10, mem=1116.4M) ***
+default core: bins with density >  0.75 = 8.88 % ( 15 / 169 )
+Density distribution unevenness ratio = 8.010%
+*** Free Virtual Timing Model ...(mem=1116.4M)
+Starting congestion repair ...
+[NR-eGR] honorMsvRouteConstraint: false
+[NR-eGR] honorClockSpecNDR      : 0
+[NR-eGR] minRouteLayer          : 2
+[NR-eGR] maxRouteLayer          : 127
+[NR-eGR] numTracksPerClockWire  : 0
+[NR-eGR] Layer1 has no routable track
+[NR-eGR] Layer2 has single uniform track structure
+[NR-eGR] Layer3 has single uniform track structure
+[NR-eGR] Layer4 has single uniform track structure
+[NR-eGR] Layer5 has single uniform track structure
+[NR-eGR] Layer6 has single uniform track structure
+[NR-eGR] Layer7 has single uniform track structure
+[NR-eGR] Layer8 has single uniform track structure
+[NR-eGR] Layer9 has single uniform track structure
+[NR-eGR] Layer10 has single uniform track structure
+[NR-eGR] numRoutingBlks=0 numInstBlks=0 numPGBlocks=260 numBumpBlks=0 numBoundaryFakeBlks=0
+[NR-eGR] numPreroutedNet = 0  numPreroutedWires = 0
+[NR-eGR] Read numTotalNets=11489  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id 0. Nets 11489 
+[NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[NR-eGR] Pitch:  L1=270  L2=380  L3=280  L4=560  L5=560  L6=560  L7=1680  L8=1680  L9=3200  L10=3360
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 11489 net(s) in layer range [2, 10]
+[NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.01% V. EstWL: 1.145606e+05um
+[NR-eGR] 
+[NR-eGR] Congestion Analysis Layer By layer: (blocked Gcells are excluded) 
+[NR-eGR]                OverCon            
+[NR-eGR]                 #Gcell     %Gcell
+[NR-eGR] Layer              (1)    OverCon 
+[NR-eGR] ------------------------------------
+[NR-eGR] Layer1       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer2       1( 0.01%)   ( 0.01%) 
+[NR-eGR] Layer3       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer4       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer5       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer6       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer7       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer8       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer9       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer10       0( 0.00%)   ( 0.00%) 
+[NR-eGR] ------------------------------------
+[NR-eGR] Total        1( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Layer1(metal1)(F) length: 0.000000e+00um, number of vias: 35925
+[NR-eGR] Layer2(metal2)(V) length: 3.148375e+04um, number of vias: 44341
+[NR-eGR] Layer3(metal3)(H) length: 5.062049e+04um, number of vias: 14124
+[NR-eGR] Layer4(metal4)(V) length: 2.304583e+04um, number of vias: 1010
+[NR-eGR] Layer5(metal5)(H) length: 5.115459e+03um, number of vias: 870
+[NR-eGR] Layer6(metal6)(V) length: 1.033939e+04um, number of vias: 22
+[NR-eGR] Layer7(metal7)(H) length: 3.612300e+02um, number of vias: 16
+[NR-eGR] Layer8(metal8)(V) length: 5.014800e+02um, number of vias: 0
+[NR-eGR] Layer9(metal9)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer10(metal10)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 1.214676e+05um, number of vias: 96308
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total clock nets wire length: 9.681450e+02um 
+[NR-eGR] --------------------------------------------------------------------------
+End of congRepair (cpu=0:00:00.8, real=0:00:08.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 1:15, real = 0:13:29, mem = 1090.5M **
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           1  The default delay limit was set to %d. T...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+*** Message Summary: 2 warning(s), 0 error(s)
+
+<CMD> gui_select -rect {99.886 91.934 106.799 88.179}
+<CMD> gui_select -rect {67.329 147.213 101.922 116.999}
+<CMD> init_design
+**WARN: (IMPSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPSYT-7329          1  Cannot load design with init_design, aft...
+*** Message Summary: 1 warning(s), 0 error(s)
+
+<CMD> setPlaceMode -fp false
+<CMD> placeDesign
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:01.1) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.22303 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: Filter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Calculate delays in Single mode...
+Start delay calculation (fullDC) (1 T). (MEM=1100.48)
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Total number of fetched objects 11688
+End delay calculation. (MEM=1181.98 CPU=0:00:05.9 REAL=0:01:02)
+End delay calculation (fullDC). (MEM=1181.98 CPU=0:00:06.3 REAL=0:01:06)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+*** Starting "NanoPlace(TM) placement v#10 (mem=1167.7M)" ...
+total jobs 1303
+multi thread init TemplateIndex for each ta. thread num 1
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:01.0 mem=1167.7M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:01.2 mem=1167.7M) ***
+No user setting net weight.
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+Scan chains were not defined.
+#std cell=9585 (0 fixed + 9585 movable) #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=11550 #term=36160 #term/net=3.13, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=174
+stdCell: 9585 single + 0 double + 0 multi
+Total standard cell length = 12.6869 (mm), area = 0.0178 (mm^2)
+Average module density = 0.595.
+Density for the design = 0.595.
+       = stdcell_area 66773 sites (17762 um^2) / alloc_area 112299 sites (29872 um^2).
+Pin Density = 0.3220.
+            = total # of pins 36160 / total area 112299.
+=== lastAutoLevel = 8 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 7.420e-10 (3.70e-10 3.72e-10)
+              Est.  stn bbox = 7.927e-10 (3.95e-10 3.98e-10)
+              cpu = 0:00:00.1 real = 0:00:01.0 mem = 1125.7M
+Iteration  2: Total net bbox = 7.420e-10 (3.70e-10 3.72e-10)
+              Est.  stn bbox = 7.927e-10 (3.95e-10 3.98e-10)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1125.7M
+Iteration  3: Total net bbox = 2.252e+02 (9.80e+01 1.27e+02)
+              Est.  stn bbox = 2.707e+02 (1.19e+02 1.52e+02)
+              cpu = 0:00:00.5 real = 0:00:03.0 mem = 1125.7M
+Active setup views:
+    MyAnView
+Iteration  4: Total net bbox = 8.044e+04 (3.52e+04 4.52e+04)
+              Est.  stn bbox = 9.833e+04 (4.28e+04 5.55e+04)
+              cpu = 0:00:05.7 real = 0:00:56.0 mem = 1125.7M
+Iteration  5: Total net bbox = 8.627e+04 (3.97e+04 4.65e+04)
+              Est.  stn bbox = 1.066e+05 (4.83e+04 5.83e+04)
+              cpu = 0:00:04.6 real = 0:00:49.0 mem = 1125.7M
+Iteration  6: Total net bbox = 9.355e+04 (4.52e+04 4.84e+04)
+              Est.  stn bbox = 1.167e+05 (5.53e+04 6.13e+04)
+              cpu = 0:00:06.5 real = 0:00:51.0 mem = 1125.7M
+Iteration  7: Total net bbox = 1.232e+05 (6.14e+04 6.19e+04)
+              Est.  stn bbox = 1.564e+05 (7.67e+04 7.96e+04)
+              cpu = 0:00:00.4 real = 0:00:04.0 mem = 1136.2M
+Iteration  8: Total net bbox = 1.232e+05 (6.14e+04 6.19e+04)
+              Est.  stn bbox = 1.564e+05 (7.67e+04 7.96e+04)
+              cpu = 0:00:07.5 real = 0:01:01 mem = 1136.2M
+Iteration  9: Total net bbox = 1.269e+05 (6.31e+04 6.39e+04)
+              Est.  stn bbox = 1.605e+05 (7.86e+04 8.19e+04)
+              cpu = 0:00:06.3 real = 0:00:57.0 mem = 1138.1M
+Iteration 10: Total net bbox = 1.269e+05 (6.31e+04 6.39e+04)
+              Est.  stn bbox = 1.605e+05 (7.86e+04 8.19e+04)
+              cpu = 0:00:07.5 real = 0:01:02 mem = 1138.1M
+Iteration 11: Total net bbox = 1.338e+05 (6.62e+04 6.76e+04)
+              Est.  stn bbox = 1.675e+05 (8.18e+04 8.57e+04)
+              cpu = 0:00:11.4 real = 0:01:21 mem = 1138.1M
+Iteration 12: Total net bbox = 1.338e+05 (6.62e+04 6.76e+04)
+              Est.  stn bbox = 1.675e+05 (8.18e+04 8.57e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1138.1M
+*** cost = 1.338e+05 (6.62e+04 6.76e+04) (cpu for global=0:00:51.9) real=0:07:25***
+Info: 0 clock gating cells identified, 0 (on average) moved
+Solver runtime cpu: 0:00:33.2 real: 0:04:40
+Core Placement runtime cpu: 0:00:35.1 real: 0:05:03
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:05:15 mem=1138.1M) ***
+Total net bbox length = 1.338e+05 (6.619e+04 6.761e+04) (ext = 2.804e+04)
+Density distribution unevenness ratio = 8.129%
+Move report: Detail placement moves 9585 insts, mean move: 0.60 um, max move: 12.93 um
+	Max move on inst (U1506): (74.37, 77.46) --> (70.87, 68.04)
+	Runtime: CPU: 0:00:03.6 REAL: 0:00:28.0 MEM: 1138.1MB
+Summary Report:
+Instances move: 9585 (out of 9585 movable)
+Instances flipped: 0
+Mean displacement: 0.60 um
+Max displacement: 12.93 um (Instance: U1506) (74.3725, 77.4625) -> (70.87, 68.04)
+	Length: 2 sites, height: 1 rows, site name: FreePDK45_38x28_10R_NP_162NW_34O, cell type: INV_X1
+Total net bbox length = 1.311e+05 (6.286e+04 6.826e+04) (ext = 2.794e+04)
+Runtime: CPU: 0:00:03.7 REAL: 0:00:29.0 MEM: 1138.1MB
+*** Finished refinePlace (0:05:19 mem=1138.1M) ***
+*** End of Placement (cpu=0:01:01, real=0:09:04, mem=1138.1M) ***
+default core: bins with density >  0.75 = 8.88 % ( 15 / 169 )
+Density distribution unevenness ratio = 8.010%
+*** Free Virtual Timing Model ...(mem=1138.1M)
+Starting congestion repair ...
+[NR-eGR] honorMsvRouteConstraint: false
+[NR-eGR] honorClockSpecNDR      : 0
+[NR-eGR] minRouteLayer          : 2
+[NR-eGR] maxRouteLayer          : 127
+[NR-eGR] numTracksPerClockWire  : 0
+[NR-eGR] Layer1 has no routable track
+[NR-eGR] Layer2 has single uniform track structure
+[NR-eGR] Layer3 has single uniform track structure
+[NR-eGR] Layer4 has single uniform track structure
+[NR-eGR] Layer5 has single uniform track structure
+[NR-eGR] Layer6 has single uniform track structure
+[NR-eGR] Layer7 has single uniform track structure
+[NR-eGR] Layer8 has single uniform track structure
+[NR-eGR] Layer9 has single uniform track structure
+[NR-eGR] Layer10 has single uniform track structure
+[NR-eGR] numRoutingBlks=0 numInstBlks=0 numPGBlocks=260 numBumpBlks=0 numBoundaryFakeBlks=0
+[NR-eGR] numPreroutedNet = 0  numPreroutedWires = 0
+[NR-eGR] Read numTotalNets=11489  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id 0. Nets 11489 
+[NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[NR-eGR] Pitch:  L1=270  L2=380  L3=280  L4=560  L5=560  L6=560  L7=1680  L8=1680  L9=3200  L10=3360
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 11489 net(s) in layer range [2, 10]
+[NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.01% V. EstWL: 1.145606e+05um
+[NR-eGR] 
+[NR-eGR] Congestion Analysis Layer By layer: (blocked Gcells are excluded) 
+[NR-eGR]                OverCon            
+[NR-eGR]                 #Gcell     %Gcell
+[NR-eGR] Layer              (1)    OverCon 
+[NR-eGR] ------------------------------------
+[NR-eGR] Layer1       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer2       1( 0.01%)   ( 0.01%) 
+[NR-eGR] Layer3       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer4       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer5       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer6       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer7       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer8       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer9       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer10       0( 0.00%)   ( 0.00%) 
+[NR-eGR] ------------------------------------
+[NR-eGR] Total        1( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Layer1(metal1)(F) length: 0.000000e+00um, number of vias: 35925
+[NR-eGR] Layer2(metal2)(V) length: 3.148375e+04um, number of vias: 44341
+[NR-eGR] Layer3(metal3)(H) length: 5.062049e+04um, number of vias: 14124
+[NR-eGR] Layer4(metal4)(V) length: 2.304583e+04um, number of vias: 1010
+[NR-eGR] Layer5(metal5)(H) length: 5.115459e+03um, number of vias: 870
+[NR-eGR] Layer6(metal6)(V) length: 1.033939e+04um, number of vias: 22
+[NR-eGR] Layer7(metal7)(H) length: 3.612300e+02um, number of vias: 16
+[NR-eGR] Layer8(metal8)(V) length: 5.014800e+02um, number of vias: 0
+[NR-eGR] Layer9(metal9)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer10(metal10)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 1.214676e+05um, number of vias: 96308
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total clock nets wire length: 9.681450e+02um 
+[NR-eGR] --------------------------------------------------------------------------
+End of congRepair (cpu=0:00:00.8, real=0:00:08.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 1:12, real = 0:10:53, mem = 1107.5M **
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           1  The default delay limit was set to %d. T...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+*** Message Summary: 2 warning(s), 0 error(s)
+
+<CMD> gui_select -rect {64.657 126.829 97.410 95.192}
+<CMD> setLayerPreference trackObj -isVisible 1
+<CMD> setLayerPreference nonPrefTrackObj -isVisible 1
+<CMD> setLayerPreference densityMap -isVisible 1
+<CMD> setLayerPreference pinDensityMap -isVisible 1
+<CMD> setLayerPreference timingMap -isVisible 1
+<CMD> setLayerPreference metalDensityMap -isVisible 1
+<CMD> setLayerPreference powerDensity -isVisible 1
+<CMD> setLayerPreference groupmain_Congestion -isVisible 1
+<CMD> setLayerPreference densityMap -isVisible 0
+<CMD> setLayerPreference pinDensityMap -isVisible 0
+<CMD> setLayerPreference timingMap -isVisible 0
+<CMD> setLayerPreference metalDensityMap -isVisible 0
+<CMD> setLayerPreference powerDensity -isVisible 0
+<CMD> setLayerPreference groupmain_Congestion -isVisible 0
+<CMD> setLayerPreference trackObj -isVisible 0
+<CMD> setLayerPreference nonPrefTrackObj -isVisible 0
+<CMD> setLayerPreference allM1 -isVisible 0
+<CMD> ::fit main.layout.win
+<CMD> setLayerPreference allM1 -isVisible 1
+<CMD> setLayerPreference coverCell -isVisible 0
+<CMD> setLayerPreference coverCell -isVisible 1
+<CMD> setLayerPreference stdCell -isVisible 0
+<CMD> setLayerPreference stdCell -isVisible 1
+<CMD> setLayerPreference trackObj -isVisible 1
+<CMD> setLayerPreference nonPrefTrackObj -isVisible 1
+<CMD> setLayerPreference densityMap -isVisible 1
+<CMD> setLayerPreference pinDensityMap -isVisible 1
+<CMD> setLayerPreference timingMap -isVisible 1
+<CMD> setLayerPreference metalDensityMap -isVisible 1
+<CMD> setLayerPreference powerDensity -isVisible 1
+<CMD> setLayerPreference groupmain_Congestion -isVisible 1
+<CMD> ::fit main.layout.win
+<CMD> setLayerPreference densityMap -isVisible 0
+<CMD> setLayerPreference pinDensityMap -isVisible 0
+<CMD> setLayerPreference timingMap -isVisible 0
+<CMD> setLayerPreference metalDensityMap -isVisible 0
+<CMD> setLayerPreference powerDensity -isVisible 0
+<CMD> setLayerPreference groupmain_Congestion -isVisible 0
+<CMD> set init_design_netlisttype verilog
+<CMD> set init_design_settop 1
+<CMD> set init_top_cell Filter
+<CMD> set init_verilog ./netlist/Filter.v
+<CMD> set init_lef_file /software/dk/nangate45/lef/NangateOpenCellLibrary.lef
+<CMD> set init_gnd_net VSS
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+**WARN: (IMPSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPSYT-7329          1  Cannot load design with init_design, aft...
+*** Message Summary: 1 warning(s), 0 error(s)
+
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -drouteStartIteration default
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -routeTopRoutingLayer default
+<CMD> setNanoRouteMode -quiet -routeBottomRoutingLayer default
+<CMD> setNanoRouteMode -quiet -drouteEndIteration default
+**WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -routeWithTimingDriven false
+<CMD> setNanoRouteMode -quiet -routeWithSiDriven false
+Running Native NanoRoute ...
+<CMD> routeDesign -globalDetail
+#routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 829.31 (MB), peak = 829.31 (MB)
+#WARNING (NRIG-96) Selected single pass global detail route "-globalDetail". Clock eco and post optimizations will not be run. See "man NRIG-96" for more details.
+#**INFO: setDesignMode -flowEffort standard
+#**INFO: mulit-cut via swapping is disabled by user.
+#**INFO: All auto set options tuned by routeDesign will be restored to their original settings on command completion.
+#**INFO: auto set of routeReserveSpaceForMultiCut to true
+#**INFO: auto set of routeConcurrentMinimizeViaCountEffort to high
+Begin checking placement ... (start mem=1251.0M, init mem=1251.0M)
+*info: Placed = 9585          
+*info: Unplaced = 0           
+Placement Density:59.46%(17762/29872)
+Placement Density (including fixed std cells):59.46%(17762/29872)
+Finished checkPlace (cpu: total=0:00:00.1, vio checks=0:00:00.1; mem=1251.0M)
+#**INFO: honoring user setting for routeWithTimingDriven set to false
+#**INFO: honoring user setting for routeWithSiDriven set to false
+**WARN: (IMPCK-8086):	The command changeUseClockNetStatus is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+
+changeUseClockNetStatus Option :  -noFixedNetWires 
+*** Changed status on (0) nets in Clock.
+*** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=1251.0M) ***
+
+globalDetailRoute
+
+#setNanoRouteMode -routeConcurrentMinimizeViaCountEffort "high"
+#setNanoRouteMode -routeReserveSpaceForMultiCut true
+#setNanoRouteMode -routeWithSiDriven false
+#setNanoRouteMode -routeWithTimingDriven false
+#Start globalDetailRoute on Sun Nov 21 20:06:07 2021
+#
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/DIN1[9] of net DIN1[9] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/DIN1[8] of net DIN1[8] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/DIN1[7] of net DIN1[7] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/DIN1[6] of net DIN1[6] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/DIN1[5] of net DIN1[5] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/DIN1[4] of net DIN1[4] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/DIN1[3] of net DIN1[3] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/DIN1[2] of net DIN1[2] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/DIN1[1] of net DIN1[1] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/DIN1[0] of net DIN1[0] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/din2[9] of net din2[9] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/din2[8] of net din2[8] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/din2[7] of net din2[7] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/din2[6] of net din2[6] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/din2[5] of net din2[5] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/din2[4] of net din2[4] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/din2[3] of net din2[3] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/din2[2] of net din2[2] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/din2[1] of net din2[1] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/din2[0] of net din2[0] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (EMS-27) Message (NRIG-39) has exceeded the current message display limit of 20.
+#To increase the message display limit, refer to the product command reference manual.
+#NanoRoute Version 17.11-s080_1 NR170721-2155/17_11-UB
+#Start routing data preparation on Sun Nov 21 20:06:12 2021
+#
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal1 is not specified for width 0.0700.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal2 is not specified for width 0.0700.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal1 is not specified for width 0.0700.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal2 is not specified for width 0.0700.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal2 is not specified for width 0.0700.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal3 is not specified for width 0.0700.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal2 is not specified for width 0.0700.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal3 is not specified for width 0.0700.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal3 is not specified for width 0.0700.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal4 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal3 is not specified for width 0.0700.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal4 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal4 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal5 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal4 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal5 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal5 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal6 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal5 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal6 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal6 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal7 is not specified for width 0.4000.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal6 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal7 is not specified for width 0.4000.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal7 is not specified for width 0.4000.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal8 is not specified for width 0.4000.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal7 is not specified for width 0.4000.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal8 is not specified for width 0.4000.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal8 is not specified for width 0.4000.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal9 is not specified for width 0.8000.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal8 is not specified for width 0.4000.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal9 is not specified for width 0.8000.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal9 is not specified for width 0.8000.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal10 is not specified for width 0.8000.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal9 is not specified for width 0.8000.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal10 is not specified for width 0.8000.
+#Minimum voltage of a net in the design = 0.000.
+#Maximum voltage of a net in the design = 1.100.
+#Voltage range [0.000 - 0.000] has 1 net.
+#Voltage range [1.100 - 1.100] has 1 net.
+#Voltage range [0.000 - 1.100] has 11574 nets.
+# metal1       H   Track-Pitch = 0.1400    Line-2-Via Pitch = 0.1350
+# metal2       V   Track-Pitch = 0.1900    Line-2-Via Pitch = 0.1400
+# metal3       H   Track-Pitch = 0.1400    Line-2-Via Pitch = 0.1400
+# metal4       V   Track-Pitch = 0.2800    Line-2-Via Pitch = 0.2800
+# metal5       H   Track-Pitch = 0.2800    Line-2-Via Pitch = 0.2800
+# metal6       V   Track-Pitch = 0.2800    Line-2-Via Pitch = 0.2800
+# metal7       H   Track-Pitch = 0.8400    Line-2-Via Pitch = 0.8000
+# metal8       V   Track-Pitch = 0.8400    Line-2-Via Pitch = 0.8000
+# metal9       H   Track-Pitch = 1.6000    Line-2-Via Pitch = 1.6000
+# metal10      V   Track-Pitch = 1.6800    Line-2-Via Pitch = 1.6000
+#Regenerating Ggrids automatically.
+#Auto generating G-grids with size=15 tracks, using layer metal3's pitch = 0.1400.
+#Using automatically generated G-grids.
+#Done routing data preparation.
+#cpu time = 00:00:01, elapsed time = 00:00:05, memory = 747.20 (MB), peak = 831.33 (MB)
+#Merging special wires...
+#
+#Finished routing data preparation on Sun Nov 21 20:06:18 2021
+#
+#Cpu time = 00:00:01
+#Elapsed time = 00:00:06
+#Increased memory = 8.54 (MB)
+#Total memory = 747.57 (MB)
+#Peak memory = 831.33 (MB)
+#
+#
+#Start global routing on Sun Nov 21 20:06:18 2021
+#
+#Number of eco nets is 0
+#
+#Start global routing data preparation on Sun Nov 21 20:06:18 2021
+#
+#Start routing resource analysis on Sun Nov 21 20:06:18 2021
+#
+#Routing resource analysis is done on Sun Nov 21 20:06:19 2021
+#
+#  Resource Analysis:
+#
+#               Routing  #Avail      #Track     #Total     %Gcell
+#  Layer      Direction   Track     Blocked      Gcell    Blocked
+#  --------------------------------------------------------------
+#  metal1         H        1274          28        7569    73.77%
+#  metal2         V         929          38        7569     1.12%
+#  metal3         H        1302           0        7569     0.00%
+#  metal4         V         656           0        7569     0.00%
+#  metal5         H         650           0        7569     0.00%
+#  metal6         V         656           0        7569     0.00%
+#  metal7         H         216           0        7569     0.00%
+#  metal8         V         218           0        7569     0.00%
+#  metal9         H          87           0        7569     0.00%
+#  metal10        V          88           0        7569     0.00%
+#  --------------------------------------------------------------
+#  Total                   6076       0.61%       75690     7.49%
+#
+#
+#
+#
+#Global routing data preparation is done on Sun Nov 21 20:06:19 2021
+#
+#cpu time = 00:00:00, elapsed time = 00:00:01, memory = 748.86 (MB), peak = 831.33 (MB)
+#
+#cpu time = 00:00:00, elapsed time = 00:00:02, memory = 749.14 (MB), peak = 831.33 (MB)
+#
+#start global routing iteration 1...
+#cpu time = 00:00:00, elapsed time = 00:00:01, memory = 753.72 (MB), peak = 831.33 (MB)
+#
+#start global routing iteration 2...
+#cpu time = 00:00:03, elapsed time = 00:00:22, memory = 787.45 (MB), peak = 831.33 (MB)
+#
+#start global routing iteration 3...
+#cpu time = 00:00:01, elapsed time = 00:00:05, memory = 791.43 (MB), peak = 831.33 (MB)
+#
+#
+#Total number of trivial nets (e.g. < 2 pins) = 87 (skipped).
+#Total number of routable nets = 11489.
+#Total number of nets in the design = 11576.
+#
+#11489 routable nets have only global wires.
+#
+#Routed nets constraints summary:
+#-----------------------------
+#        Rules   Unconstrained  
+#-----------------------------
+#      Default           11489  
+#-----------------------------
+#        Total           11489  
+#-----------------------------
+#
+#Routing constraints summary of the whole design:
+#-----------------------------
+#        Rules   Unconstrained  
+#-----------------------------
+#      Default           11489  
+#-----------------------------
+#        Total           11489  
+#-----------------------------
+#
+#
+#  Congestion Analysis: (blocked Gcells are excluded)
+#
+#                 OverCon          
+#                  #Gcell    %Gcell
+#     Layer           (1)   OverCon
+#  --------------------------------
+#  metal1        0(0.00%)   (0.00%)
+#  metal2        2(0.03%)   (0.03%)
+#  metal3        0(0.00%)   (0.00%)
+#  metal4        0(0.00%)   (0.00%)
+#  metal5        0(0.00%)   (0.00%)
+#  metal6        0(0.00%)   (0.00%)
+#  metal7        0(0.00%)   (0.00%)
+#  metal8        0(0.00%)   (0.00%)
+#  metal9        0(0.00%)   (0.00%)
+#  metal10       0(0.00%)   (0.00%)
+#  --------------------------------
+#     Total      2(0.00%)   (0.00%)
+#
+#  The worst congested Gcell overcon (routing demand over resource in number of tracks) = 1
+#  Overflow after GR: 0.00% H + 0.01% V
+#
+[hotspot] +------------+---------------+---------------+
+[hotspot] |            |   max hotspot | total hotspot |
+[hotspot] +------------+---------------+---------------+
+[hotspot] | normalized |          0.00 |          0.00 |
+[hotspot] +------------+---------------+---------------+
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+#Complete Global Routing.
+#Total wire length = 109637 um.
+#Total half perimeter of net bounding box = 116633 um.
+#Total wire length on LAYER metal1 = 0 um.
+#Total wire length on LAYER metal2 = 36580 um.
+#Total wire length on LAYER metal3 = 49650 um.
+#Total wire length on LAYER metal4 = 19755 um.
+#Total wire length on LAYER metal5 = 2547 um.
+#Total wire length on LAYER metal6 = 1105 um.
+#Total wire length on LAYER metal7 = 0 um.
+#Total wire length on LAYER metal8 = 0 um.
+#Total wire length on LAYER metal9 = 0 um.
+#Total wire length on LAYER metal10 = 0 um.
+#Total number of vias = 56251
+#Up-Via Summary (total 56251):
+#           
+#-----------------------
+# metal1          34054
+# metal2          20085
+# metal3           1908
+# metal4            150
+# metal5             54
+#-----------------------
+#                 56251 
+#
+#Max overcon = 1 tracks.
+#Total overcon = 0.00%.
+#Worst layer Gcell overcon rate = 0.00%.
+#
+#Global routing statistics:
+#Cpu time = 00:00:04
+#Elapsed time = 00:00:31
+#Increased memory = 44.80 (MB)
+#Total memory = 792.45 (MB)
+#Peak memory = 831.33 (MB)
+#
+#Finished global routing on Sun Nov 21 20:06:49 2021
+#
+#
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 767.76 (MB), peak = 831.33 (MB)
+#Start Track Assignment.
+#Done with 13626 horizontal wires in 1 hboxes and 15173 vertical wires in 1 hboxes.
+#Done with 3015 horizontal wires in 1 hboxes and 3768 vertical wires in 1 hboxes.
+#Done with 1 horizontal wires in 1 hboxes and 1 vertical wires in 1 hboxes.
+#
+#Track assignment summary:
+# layer   (wire length)   (overlap)     (long ovlp)	(with obs/pg/clk)  
+#------------------------------------------------------------------------
+# metal1         0.00 	  0.00%  	  0.00% 	  0.00%
+# metal2     36090.60 	  0.10%  	  0.00% 	  0.00%
+# metal3     48983.33 	  0.04%  	  0.00% 	  0.00%
+# metal4     19856.76 	  0.01%  	  0.00% 	  0.00%
+# metal5      2565.76 	  0.00%  	  0.00% 	  0.00%
+# metal6      1111.74 	  0.00%  	  0.00% 	  0.00%
+# metal7         0.00 	  0.00%  	  0.00% 	  0.00%
+# metal8         0.00 	  0.00%  	  0.00% 	  0.00%
+# metal9         0.00 	  0.00%  	  0.00% 	  0.00%
+# metal10        0.00 	  0.00%  	  0.00% 	  0.00%
+#------------------------------------------------------------------------
+# All      108608.20  	  0.05% 	  0.00% 	  0.00%
+#Complete Track Assignment.
+#Total wire length = 116561 um.
+#Total half perimeter of net bounding box = 116633 um.
+#Total wire length on LAYER metal1 = 5387 um.
+#Total wire length on LAYER metal2 = 35876 um.
+#Total wire length on LAYER metal3 = 51702 um.
+#Total wire length on LAYER metal4 = 19902 um.
+#Total wire length on LAYER metal5 = 2575 um.
+#Total wire length on LAYER metal6 = 1119 um.
+#Total wire length on LAYER metal7 = 0 um.
+#Total wire length on LAYER metal8 = 0 um.
+#Total wire length on LAYER metal9 = 0 um.
+#Total wire length on LAYER metal10 = 0 um.
+#Total number of vias = 56251
+#Up-Via Summary (total 56251):
+#           
+#-----------------------
+# metal1          34054
+# metal2          20085
+# metal3           1908
+# metal4            150
+# metal5             54
+#-----------------------
+#                 56251 
+#
+#cpu time = 00:00:04, elapsed time = 00:00:28, memory = 774.72 (MB), peak = 831.33 (MB)
+#
+#Routing data preparation, pin analysis, global routing and track assignment statistics:
+#Cpu time = 00:00:10
+#Elapsed time = 00:01:06
+#Increased memory = 35.98 (MB)
+#Total memory = 774.96 (MB)
+#Peak memory = 831.33 (MB)
+#
+#Start Detail Routing..
+#start initial detail routing ...
+#   number of violations = 3
+#
+#    By Layer and Type :
+#	          Short   Totals
+#	metal1        1        1
+#	metal2        2        2
+#	Totals        3        3
+#cpu time = 00:01:07, elapsed time = 00:06:30, memory = 818.44 (MB), peak = 831.33 (MB)
+#start 1st optimization iteration ...
+#   number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:01, memory = 819.71 (MB), peak = 831.33 (MB)
+#Complete Detail Routing.
+#Total wire length = 118520 um.
+#Total half perimeter of net bounding box = 116633 um.
+#Total wire length on LAYER metal1 = 5533 um.
+#Total wire length on LAYER metal2 = 42600 um.
+#Total wire length on LAYER metal3 = 46810 um.
+#Total wire length on LAYER metal4 = 19782 um.
+#Total wire length on LAYER metal5 = 2650 um.
+#Total wire length on LAYER metal6 = 1145 um.
+#Total wire length on LAYER metal7 = 0 um.
+#Total wire length on LAYER metal8 = 0 um.
+#Total wire length on LAYER metal9 = 0 um.
+#Total wire length on LAYER metal10 = 0 um.
+#Total number of vias = 60227
+#Up-Via Summary (total 60227):
+#           
+#-----------------------
+# metal1          36382
+# metal2          21446
+# metal3           2196
+# metal4            149
+# metal5             54
+#-----------------------
+#                 60227 
+#
+#Total number of DRC violations = 0
+#Cpu time = 00:01:07
+#Elapsed time = 00:06:34
+#Increased memory = -4.37 (MB)
+#Total memory = 770.61 (MB)
+#Peak memory = 831.33 (MB)
+#
+#Start Post Route wire spreading..
+#
+#Start DRC checking..
+#   number of violations = 0
+#cpu time = 00:00:09, elapsed time = 00:00:45, memory = 796.50 (MB), peak = 831.33 (MB)
+#CELL_VIEW Filter,init has no DRC violation.
+#Total number of DRC violations = 0
+#
+#Start data preparation for wire spreading...
+#
+#Data preparation is done on Sun Nov 21 20:14:41 2021
+#
+#
+#Start Post Route Wire Spread.
+#Done with 5155 horizontal wires in 2 hboxes and 3485 vertical wires in 2 hboxes.
+#Complete Post Route Wire Spread.
+#
+#Total wire length = 121161 um.
+#Total half perimeter of net bounding box = 116633 um.
+#Total wire length on LAYER metal1 = 5541 um.
+#Total wire length on LAYER metal2 = 43412 um.
+#Total wire length on LAYER metal3 = 48261 um.
+#Total wire length on LAYER metal4 = 20139 um.
+#Total wire length on LAYER metal5 = 2656 um.
+#Total wire length on LAYER metal6 = 1152 um.
+#Total wire length on LAYER metal7 = 0 um.
+#Total wire length on LAYER metal8 = 0 um.
+#Total wire length on LAYER metal9 = 0 um.
+#Total wire length on LAYER metal10 = 0 um.
+#Total number of vias = 60227
+#Up-Via Summary (total 60227):
+#           
+#-----------------------
+# metal1          36382
+# metal2          21446
+# metal3           2196
+# metal4            149
+# metal5             54
+#-----------------------
+#                 60227 
+#
+#
+#Start DRC checking..
+#   number of violations = 0
+#cpu time = 00:00:09, elapsed time = 00:00:25, memory = 793.44 (MB), peak = 831.33 (MB)
+#CELL_VIEW Filter,init has no DRC violation.
+#Total number of DRC violations = 0
+#   number of violations = 0
+#cpu time = 00:00:11, elapsed time = 00:00:34, memory = 774.04 (MB), peak = 831.33 (MB)
+#CELL_VIEW Filter,init has no DRC violation.
+#Total number of DRC violations = 0
+#Post Route wire spread is done.
+#Total wire length = 121161 um.
+#Total half perimeter of net bounding box = 116633 um.
+#Total wire length on LAYER metal1 = 5541 um.
+#Total wire length on LAYER metal2 = 43412 um.
+#Total wire length on LAYER metal3 = 48261 um.
+#Total wire length on LAYER metal4 = 20139 um.
+#Total wire length on LAYER metal5 = 2656 um.
+#Total wire length on LAYER metal6 = 1152 um.
+#Total wire length on LAYER metal7 = 0 um.
+#Total wire length on LAYER metal8 = 0 um.
+#Total wire length on LAYER metal9 = 0 um.
+#Total wire length on LAYER metal10 = 0 um.
+#Total number of vias = 60227
+#Up-Via Summary (total 60227):
+#           
+#-----------------------
+# metal1          36382
+# metal2          21446
+# metal3           2196
+# metal4            149
+# metal5             54
+#-----------------------
+#                 60227 
+#
+#detailRoute Statistics:
+#Cpu time = 00:01:28
+#Elapsed time = 00:07:58
+#Increased memory = -3.06 (MB)
+#Total memory = 771.92 (MB)
+#Peak memory = 831.33 (MB)
+#
+#globalDetailRoute statistics:
+#Cpu time = 00:01:39
+#Elapsed time = 00:09:12
+#Increased memory = -65.59 (MB)
+#Total memory = 765.52 (MB)
+#Peak memory = 831.33 (MB)
+#Number of warnings = 57
+#Total number of warnings = 58
+#Number of fails = 0
+#Total number of fails = 0
+#Complete globalDetailRoute on Sun Nov 21 20:15:19 2021
+#
+#routeDesign: cpu time = 00:01:39, elapsed time = 00:09:13, memory = 765.59 (MB), peak = 831.33 (MB)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPCK-8086           1  The command %s is obsolete and will be r...
+*** Message Summary: 1 warning(s), 0 error(s)
+
+<CMD> gui_select -rect {127.618 151.868 94.560 109.466}
+<CMD> gui_select -rect {170.739 171.631 76.234 72.096}
+
+*** Memory Usage v#1 (Current mem = 1224.086M, initial mem = 187.684M) ***
+*** Message Summary: 42 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:07:19, real=1:42:11, mem=1224.1M) ---

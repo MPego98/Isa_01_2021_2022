@@ -3,9 +3,9 @@ m255
 cModel Technology
 d/home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia
 T_opt
-V4?Bj[[m3LiB8mXZGU9B0D1
+VSbOn=]g`NS7DWR]mLb?913
 06 2 3 ./work tb beh 0
-o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.2g -sdftyp /tb/dut=innovus/Filter_innovus.sdf -suppress 1948
+o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.2g -sdftyp /tb/dut=innovus/Filter_adv.sdf -suppress 1948
 tExplicit 1
 OE;O;6.2g;35
 Pdatatype
@@ -23,41 +23,44 @@ M2 ieee std_logic_1164
 M1 ieee numeric_std
 tExplicit 1
 vFilter
-I:BW<ai2PnnN869z9QN[9S2
-VFn3^je2Q>hFM0P^l@B1?z0
-w1637424876
-8innovus/Filter_inn.v
-Finnovus/Filter_inn.v
+I3hl^zB`<[QoiGac<DekW50
+VLQJeQh0U;h6[99eTaTnPa3
+w1637524909
+8innovus/Filter_adv.v
+Finnovus/Filter_adv.v
 L0 15
-VFn3^je2Q>hFM0P^l@B1?z0
+VLQJeQh0U;h6[99eTaTnPa3
 OE;L;6.2g;35
 r1
 31
 n@filter
 Etb
-w1637425252
+w1637527162
+DP work datatype ;mh<VkkDin1C6Se`U]`ZS1
 DP std textio K]Z^fghZ6B=BjnK5NomDT3
 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8netlist/tb3_post.vhd
-Fnetlist/tb3_post.vhd
+8netlist/tb3_post_adv.vhd
+Fnetlist/tb3_post_adv.vhd
 l0
 L8
-V_g`JX0]J;z1<0bdjG=4l73
+VC45a59aX2>S5Xl;o57BRC1
 OE;C;6.2g;35
 32
 tExplicit 1
 Abeh
+DP work datatype ;mh<VkkDin1C6Se`U]`ZS1
 DP std textio K]Z^fghZ6B=BjnK5NomDT3
 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work tb _g`JX0]J;z1<0bdjG=4l73
-l28
+DE work tb C45a59aX2>S5Xl;o57BRC1
+l33
 L10
-V`3Z^:^SiYg^7NJlPGZk:n0
+VZlASQb1ohN5`c5N1XdDKC0
 OE;C;6.2g;35
 32
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 std textio
+M4 ieee std_logic_1164
+M3 ieee numeric_std
+M2 std textio
+M1 work datatype
 tExplicit 1

@@ -131,7 +131,7 @@ variable index:integer:=0;
 variable tmp_data_u: std_logic_vector(9 downto 0);
  begin
 if(rst_n='0') then
-file_open(mem_fp,"inout_data/out_post_adv.txt",WRITE_MODE);
+file_open(mem_fp,"inout_data/out_post_adv_inn.txt",WRITE_MODE);
 else 
 	tmp_data_u:=std_logic_vector(DOUT1);
 	

@@ -38,7 +38,7 @@ begin
 			x_vector(0)<=DIN;
 			store:=to_signed(0,store'length);
 			for i in 0 to N-1 loop
-				tmp:=shift_right(x_vector(i)*B(i),nb)(nb-1 downto 0) ; 
+				tmp:=shift_right(x_vector(i)*B(i),nb-1)(nb-1 downto 0) ; 
 				--tmp:=to_signed(100,tmp'length);
 				store:=store+tmp ;
 			end loop;

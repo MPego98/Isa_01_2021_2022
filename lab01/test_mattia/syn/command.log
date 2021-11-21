@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version O-2018.06-SP4 for linux64 -- Nov 27, 2018
-#@ # Date:   Sat Nov 20 17:31:43 2021
+#@ # Date:   Sun Nov 21 21:46:12 2021
 #@ # Run by: isa01_2021_2022@localhost.localdomain
 #@ 
 
@@ -6638,13 +6638,22 @@ source /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/syn/.synopsy
 #@ set synthetic_library [list "dw_foundation.sldb" ]
 #@ # -- End source /home/isa01_2021_2022/git/Isa_01_2021_2022/lab01/test_mattia/syn/.synopsys_dc.setup
 
-read_verilog -netlist ../innovus/Filter_inn.v
-read_saif input innovus_fir.saif -instance tb/dut -unit ns -scale 1
-read_saif -input innovus_fir.saif -instance tb/dut -unit ns -scale 1
+read_verilog -netlist ../innovus/Filter_adv.v
+read_saif -input ../netlist/innovus_fir_adv.saif -instance tb/dut -unit ns -scale 1
+create_clk -name myclk clk
 create_clock -name myclk clk
-report_power > report/power_basic_innovus
-report_power > report/power_basic_innovus.txt
-report_timing > report/time_basic_innovus.txt
-report_area > repor/area_basic_innovus.txt
-report_area > report/area_basic_innovus.txt
-quit
+report_power report/inn_adv_design_power.txt
+report_power > report/inn_adv_design_power.txt
+report_area > report/inn_adv_design_area.txt
+analyze -library WORK -format vhdl {../netlist/datatype.vhd ../netlist/filter2_Advanced3.vhd}
+elaborate FILTER -architecture BEH -library work
+create_clock -name my_clk -period 2 clk
+create_clock -name my_clk -period 1 clk
+set_dont_touch_network my_clk
+compile -exact_map
+report_timing
+create_clock -name my_clk -period 2 clk
+set_dont_touch_network my_clk
+compile -exact_map
+report_timing
+report_timing > clk_1_time_adv.txt

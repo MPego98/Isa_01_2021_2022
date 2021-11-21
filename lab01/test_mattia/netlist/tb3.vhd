@@ -61,7 +61,7 @@ variable index:integer:=0;
 variable tmp_data_u: integer;
  begin
 if(rst_n='0') then
-file_open(mem_fp,"data.txt",READ_MODE);
+file_open(mem_fp,"inout_data/data.txt",READ_MODE);
 while (not endfile(mem_fp) and index < data_inl) loop
         readline(mem_fp,file_line);
         read(file_line,tmp_data_u);
@@ -77,7 +77,11 @@ begin
 	if(rst_n='1' and clk'event and clk='1' ) then 
 		if( idx<data_inl) then
 			DIN<=list_in(idx);
-			VIN<='1';
+			if(idx=5) then
+				VIN<='0';
+			else
+				VIN<='1';
+			end if;
 			idx:=idx+1;
 		
 
